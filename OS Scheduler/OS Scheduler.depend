@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1509899535 source:/home/ian/Documents/School/FAU/COP/4610/Programming assignment/OS Scheduler/src/Process.cpp
+	"Process.h"
+
+1509901607 /home/ian/Documents/School/FAU/COP/4610/Programming assignment/OS Scheduler/include/Process.h
+	<vector>
+
+1509901225 source:/home/ian/Documents/School/FAU/COP/4610/Programming assignment/OS Scheduler/main.cpp
+	<iostream>
+	<vector>
+	"Process.h"
+	"scheduler.h"
+
+1508683565 /home/ian/Documents/School/FAU/COP/4610/Programming assignment/OS Scheduler/include/funcLib.h
+	<vector>
+
+1509651102 /home/ian/Documents/School/FAU/COP/4610/Programming assignment/OS Scheduler/include/generic.h
+	<vector>
+
+1509901927 /home/ian/Documents/School/FAU/COP/4610/Programming assignment/OS Scheduler/include/funcs.h
+	<vector>
+	"Process.h"
+
+1509899574 /home/ian/Documents/School/FAU/COP/4610/Programming assignment/OS Scheduler/include/scheduler.h
+	"generic.h"
+	"funcs.h"
+

@@ -1,0 +1,519 @@
+FCFS:
+Current time: 0
+Running:
+P1: 4
+Ready queue 1:
+P2: 18, P3: 6, P4: 17, P5: 5, P6: 10, P7: 21, P8: 11
+----------------------------
+Current time: 4
+Running:
+P2: 18
+Waiting on IO:
+P1: 24
+Ready queue 1:
+P3: 6, P4: 17, P5: 5, P6: 10, P7: 21, P8: 11
+----------------------------
+Current time: 22
+Running:
+P3: 6
+Waiting on IO:
+P1: 24, P2: 31
+Ready queue 1:
+P4: 17, P5: 5, P6: 10, P7: 21, P8: 11
+----------------------------
+Current time: 28
+Running:
+P4: 17
+Waiting on IO:
+P2: 31, P3: 18
+Ready queue 1:
+P5: 5, P6: 10, P7: 21, P8: 11, P1: 5
+----------------------------
+Current time: 45
+Running:
+P5: 5
+Waiting on IO:
+P2: 31, P4: 42
+Ready queue 1:
+P6: 10, P7: 21, P8: 11, P1: 5, P3: 4
+----------------------------
+Current time: 50
+Running:
+P6: 10
+Waiting on IO:
+P2: 31, P4: 42, P5: 81
+Ready queue 1:
+P7: 21, P8: 11, P1: 5, P3: 4
+----------------------------
+Current time: 60
+Running:
+P7: 21
+Waiting on IO:
+P4: 42, P5: 81, P6: 35
+Ready queue 1:
+P8: 11, P1: 5, P3: 4, P2: 19
+----------------------------
+Current time: 81
+Running:
+P8: 11
+Waiting on IO:
+P4: 42, P5: 81, P6: 35, P7: 51
+Ready queue 1:
+P1: 5, P3: 4, P2: 19
+----------------------------
+Current time: 92
+Running:
+P1: 5
+Waiting on IO:
+P5: 81, P6: 35, P7: 51, P8: 52
+Ready queue 1:
+P3: 4, P2: 19, P4: 19
+----------------------------
+Current time: 97
+Running:
+P3: 4
+Waiting on IO:
+P5: 81, P7: 51, P8: 52, P1: 73
+Ready queue 1:
+P2: 19, P4: 19, P6: 12
+----------------------------
+Current time: 101
+Running:
+P2: 19
+Waiting on IO:
+P5: 81, P7: 51, P8: 52, P1: 73, P3: 21
+Ready queue 1:
+P4: 19, P6: 12
+----------------------------
+Current time: 120
+Running:
+P4: 19
+Waiting on IO:
+P5: 81, P7: 51, P8: 52, P1: 73, P3: 21, P2: 35
+Ready queue 1:
+P6: 12
+----------------------------
+Current time: 139
+Running:
+P6: 12
+Waiting on IO:
+P8: 52, P1: 73, P2: 35, P4: 55
+Ready queue 1:
+P3: 7, P5: 4, P7: 23
+----------------------------
+Current time: 151
+Running:
+P3: 7
+Waiting on IO:
+P1: 73, P2: 35, P4: 55, P6: 41
+Ready queue 1:
+P5: 4, P7: 23, P8: 14
+----------------------------
+Current time: 158
+Running:
+P5: 4
+Waiting on IO:
+P1: 73, P4: 55, P6: 41, P3: 19
+Ready queue 1:
+P7: 23, P8: 14, P2: 11
+----------------------------
+Current time: 162
+Running:
+P7: 23
+Waiting on IO:
+P1: 73, P4: 55, P6: 41, P3: 19, P5: 82
+Ready queue 1:
+P8: 14, P2: 11
+----------------------------
+Current time: 185
+Running:
+P8: 14
+Waiting on IO:
+P4: 55, P6: 41, P5: 82, P7: 53
+Ready queue 1:
+P2: 11, P1: 3, P3: 4
+----------------------------
+Current time: 199
+Running:
+P2: 11
+Waiting on IO:
+P5: 82, P7: 53, P8: 42
+Ready queue 1:
+P1: 3, P3: 4, P6: 14, P4: 20
+----------------------------
+Current time: 210
+Running:
+P1: 3
+Waiting on IO:
+P5: 82, P7: 53, P8: 42, P2: 42
+Ready queue 1:
+P3: 4, P6: 14, P4: 20
+----------------------------
+Current time: 213
+Running:
+P3: 4
+Waiting on IO:
+P5: 82, P7: 53, P8: 42, P2: 42, P1: 31
+Ready queue 1:
+P6: 14, P4: 20
+----------------------------
+Current time: 217
+Running:
+P6: 14
+Waiting on IO:
+P5: 82, P7: 53, P8: 42, P2: 42, P1: 31, P3: 16
+Ready queue 1:
+P4: 20
+----------------------------
+Current time: 231
+Running:
+P4: 20
+Waiting on IO:
+P5: 82, P7: 53, P8: 42, P2: 42, P1: 31, P3: 16, P6: 33
+----------------------------
+Current time: 251
+Running:
+P3: 5
+Waiting on IO:
+P2: 42, P6: 33, P4: 54
+Ready queue 1:
+P7: 24, P8: 15, P1: 5, P5: 5
+----------------------------
+Current time: 256
+Running:
+P7: 24
+Waiting on IO:
+P6: 33, P4: 54, P3: 29
+Ready queue 1:
+P8: 15, P1: 5, P5: 5, P2: 18
+----------------------------
+Current time: 280
+Running:
+P8: 15
+Waiting on IO:
+P4: 54, P3: 29, P7: 61
+Ready queue 1:
+P1: 5, P5: 5, P2: 18, P6: 11
+----------------------------
+Current time: 295
+Running:
+P1: 5
+Waiting on IO:
+P4: 54, P7: 61, P8: 31
+Ready queue 1:
+P5: 5, P2: 18, P6: 11, P3: 7
+----------------------------
+Current time: 300
+Running:
+P5: 5
+Waiting on IO:
+P4: 54, P7: 61, P8: 31, P1: 27
+Ready queue 1:
+P2: 18, P6: 11, P3: 7
+----------------------------
+Current time: 305
+Running:
+P2: 18
+Waiting on IO:
+P7: 61, P8: 31, P1: 27, P5: 71
+Ready queue 1:
+P6: 11, P3: 7, P4: 17
+----------------------------
+Current time: 323
+Running:
+P6: 11
+Waiting on IO:
+P7: 61, P8: 31, P1: 27, P5: 71, P2: 43
+Ready queue 1:
+P3: 7, P4: 17
+----------------------------
+Current time: 334
+Running:
+P3: 7
+Waiting on IO:
+P7: 61, P5: 71, P2: 43, P6: 32
+Ready queue 1:
+P4: 17, P8: 17, P1: 4
+----------------------------
+Current time: 341
+Running:
+P4: 17
+Waiting on IO:
+P7: 61, P5: 71, P2: 43, P6: 32, P3: 21
+Ready queue 1:
+P8: 17, P1: 4
+----------------------------
+Current time: 358
+Running:
+P8: 17
+Waiting on IO:
+P5: 71, P2: 43, P6: 32, P3: 21, P4: 52
+Ready queue 1:
+P1: 4, P7: 22
+----------------------------
+Current time: 375
+Running:
+P1: 4
+Waiting on IO:
+P5: 71, P4: 52, P8: 21
+Ready queue 1:
+P7: 22, P3: 8, P2: 19, P6: 15
+----------------------------
+Current time: 379
+Running:
+P7: 22
+Waiting on IO:
+P4: 52, P8: 21, P1: 33
+Ready queue 1:
+P3: 8, P2: 19, P6: 15, P5: 3
+----------------------------
+Current time: 401
+Running:
+P3: 8
+Waiting on IO:
+P4: 52, P1: 33, P7: 31
+Ready queue 1:
+P2: 19, P6: 15, P5: 3, P8: 16
+----------------------------
+Current time: 409
+Running:
+P2: 19
+Waiting on IO:
+P4: 52, P1: 33, P7: 31, P3: 22
+Ready queue 1:
+P6: 15, P5: 3, P8: 16
+----------------------------
+Current time: 428
+Running:
+P6: 15
+Waiting on IO:
+P7: 31, P3: 22, P2: 47
+Ready queue 1:
+P5: 3, P8: 16, P4: 15, P1: 6
+----------------------------
+Current time: 443
+Running:
+P5: 3
+Waiting on IO:
+P2: 47, P6: 41
+Ready queue 1:
+P8: 16, P4: 15, P1: 6, P3: 6, P7: 21
+----------------------------
+Current time: 446
+Running:
+P8: 16
+Waiting on IO:
+P2: 47, P6: 41, P5: 61
+Ready queue 1:
+P4: 15, P1: 6, P3: 6, P7: 21
+----------------------------
+Current time: 462
+Running:
+P4: 15
+Waiting on IO:
+P2: 47, P6: 41, P5: 61, P8: 43
+Ready queue 1:
+P1: 6, P3: 6, P7: 21
+----------------------------
+Current time: 477
+Running:
+P1: 6
+Waiting on IO:
+P6: 41, P5: 61, P8: 43, P4: 67
+Ready queue 1:
+P3: 6, P7: 21, P2: 18
+----------------------------
+Current time: 483
+Running:
+P3: 6
+Waiting on IO:
+P6: 41, P5: 61, P8: 43, P4: 67, P1: 43
+Ready queue 1:
+P7: 21, P2: 18
+----------------------------
+Current time: 489
+Running:
+P7: 21
+Waiting on IO:
+P5: 61, P8: 43, P4: 67, P1: 43, P3: 24
+Ready queue 1:
+P2: 18, P6: 13
+----------------------------
+Current time: 510
+Running:
+P2: 18
+Waiting on IO:
+P4: 67, P1: 43, P3: 24, P7: 43
+Ready queue 1:
+P6: 13, P8: 12, P5: 5
+----------------------------
+Current time: 528
+Running:
+P6: 13
+Waiting on IO:
+P4: 67, P7: 43, P2: 43
+Ready queue 1:
+P8: 12, P5: 5, P3: 5, P1: 4
+----------------------------
+Current time: 541
+Running:
+P8: 12
+Waiting on IO:
+P4: 67, P7: 43, P2: 43, P6: 29
+Ready queue 1:
+P5: 5, P3: 5, P1: 4
+----------------------------
+Current time: 553
+Running:
+P5: 5
+Waiting on IO:
+P7: 43, P2: 43, P6: 29, P8: 31
+Ready queue 1:
+P3: 5, P1: 4, P4: 12
+----------------------------
+Current time: 558
+Running:
+P3: 5
+Waiting on IO:
+P2: 43, P6: 29, P8: 31, P5: 62
+Ready queue 1:
+P1: 4, P4: 12, P7: 20
+----------------------------
+Program terminated.
+Current time: 563
+Running:
+P1: 4
+Waiting on IO:
+P2: 43, P6: 29, P8: 31, P5: 62
+Ready queue 1:
+P4: 12, P7: 20
+----------------------------
+Current time: 567
+Running:
+P4: 12
+Waiting on IO:
+P2: 43, P6: 29, P8: 31, P5: 62, P1: 64
+Ready queue 1:
+P7: 20
+----------------------------
+Current time: 579
+Running:
+P7: 20
+Waiting on IO:
+P8: 31, P5: 62, P1: 64, P4: 72
+Ready queue 1:
+P6: 11, P2: 17
+----------------------------
+Program terminated.
+Current time: 599
+Running:
+P6: 11
+Waiting on IO:
+P5: 62, P1: 64, P4: 72
+Ready queue 1:
+P2: 17, P8: 13
+----------------------------
+Program terminated.
+Current time: 610
+Running:
+P2: 17
+Waiting on IO:
+P5: 62, P1: 64, P4: 72
+Ready queue 1:
+P8: 13
+----------------------------
+Current time: 627
+Running:
+P8: 13
+Waiting on IO:
+P1: 64, P4: 72, P2: 51
+Ready queue 1:
+P5: 4
+----------------------------
+Current time: 640
+Running:
+P5: 4
+Waiting on IO:
+P4: 72, P2: 51, P8: 32
+Ready queue 1:
+P1: 5
+----------------------------
+Current time: 644
+Running:
+P1: 5
+Waiting on IO:
+P4: 72, P2: 51, P8: 32, P5: 51
+----------------------------
+Current time: 651
+Running:
+P4: 15
+Waiting on IO:
+P2: 51, P8: 32, P5: 51, P1: 19
+----------------------------
+Current time: 667
+Running:
+P1: 2
+Waiting on IO:
+P2: 51, P8: 32, P5: 51, P4: 66
+----------------------------
+Program terminated.
+Current time: 671
+Running:
+P8: 15
+Waiting on IO:
+P2: 51, P5: 51, P4: 66
+----------------------------
+Program terminated.
+Current time: 686
+Running:
+P2: 19
+Waiting on IO:
+P5: 51, P4: 66
+----------------------------
+Current time: 705
+Running:
+P5: 3
+Waiting on IO:
+P4: 66, P2: 32
+----------------------------
+Current time: 733
+Running:
+P4: 14
+Waiting on IO:
+P2: 32, P5: 77
+----------------------------
+Program terminated.
+Current time: 747
+Running:
+P2: 10
+Waiting on IO:
+P5: 77
+----------------------------
+Program terminated.
+Current time: 785
+Running:
+P5: 4
+----------------------------
+Current time: 849
+Running:
+P5: 3
+----------------------------
+Current time: 893
+Running:
+P5: 5
+----------------------------
+Program terminated.
+
+Results:
+CPU utilization: 82.3857%
+Process	Tw	Ttr	Tr
+1	320	668	0	
+2	283	756	4	
+3	349	562	22	
+4	204	746	28	
+5	267	897	45	
+6	314	609	50	
+7	226	598	60	
+8	324	685	81	
+Avg:	285.875	690.125	36.25
+Total time: 897
